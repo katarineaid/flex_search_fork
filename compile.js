@@ -4,7 +4,8 @@ var fs = require('fs');
 var supported_lang = [
 
   'en',
-  'de'
+  'de',
+  'ru'
 ];
 
 console.log("Start build .....");

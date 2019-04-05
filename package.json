@@ -42,7 +42,8 @@
     "test-coverage": "nyc --reporter=html --reporter=text mocha --timeout=3000 mocha test/test.js",
     "test": "npm run test-develop && npm run test-production && npm run test-light && npm run test-browser && npm run test-coverage",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "update": "node_modules/.bin/updtr --to non-breaking"
+    "update": "node_modules/.bin/updtr --to non-breaking",
+    "utf8": "native2ascii -reverse -encoding utf-8 lang/ru.min.js lang/ru.min.js"
   },
   "nyc": {
     "per-file": true,
